@@ -33,7 +33,7 @@ st.markdown("---")
 # 4. Create the real-time Interactive Sliders (The Inputs)
 st.subheader("📊 Adjust Weather & Rock Amounts")
 
-R = st.slider("🌧️ NASA Rainfall Amount (R in mm inches)", min_value=0.0, max_value=11.0, value=1.0, step=0.1)
+R = st.slider("🌧️ NASA Rainfall Amount (R in mm/inches)", min_value=0.0, max_value=11.0, value=1.0, step=0.1)
 T = st.slider("☀️ NASA Temperature (T in Celsius)", min_value=-25.0, max_value=45.0, value=1.0, step=0.1)
 u = st.slider("🚜 Amount of Rock Spread on Fields(u in t/ha(ton per hectare))", min_value=0, max_value=100, value=10, step=1)
 
